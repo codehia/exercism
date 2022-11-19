@@ -1,8 +1,9 @@
 // Package weather shows the forcast for the current location.
-package weather 
+package weather
 
 // CurrentCondition: string representing current weather.
 var CurrentCondition string
+
 // CurrentLocation: string representing current location of the weather.
 var CurrentLocation string
 
