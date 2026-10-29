@@ -1,1 +1,4 @@
-_: { languages.cplusplus.enable = true; }
+_: {
+  imports = [ ../devenv.nix ];
+  languages.cplusplus.enable = true;
+}

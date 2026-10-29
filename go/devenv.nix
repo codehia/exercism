@@ -1,1 +1,4 @@
-_: { languages.go.enable = true; }
+_: {
+  imports = [ ../devenv.nix ];
+  languages.go.enable = true;
+}
