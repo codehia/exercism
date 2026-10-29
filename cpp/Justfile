@@ -1,0 +1,9 @@
+# Build and test an exercise: just build lasagna
+build exercise:
+    cmake -S {{exercise}} -B {{exercise}}/build -G "Unix Makefiles"
+    make -C {{exercise}}/build
+
+[no-cd]
+make:
+    mkdir -p build
+    cd build && cmake -G "Unix Makefiles" .. && make
