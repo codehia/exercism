@@ -1,0 +1,6 @@
+# Exercism's bundled Catch2 test framework, not my code
+**/test/catch.hpp linguist-vendored
+**/test/tests-main.cpp linguist-vendored
+# Only .cpp counts toward C++
+cpp/**/*.h linguist-vendored
+solutions/cpp/**/*.h linguist-vendored
