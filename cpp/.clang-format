@@ -1,1 +1,9 @@
-BasedOnStyle: Google
+# Base this off of Google Style
+BasedOnStyle:  Google
+
+# Customize with larger indents
+IndentWidth:     4
+ObjCBlockIndentWidth: 4
+
+# Blank line between functions/classes
+SeparateDefinitionBlocks: Always
