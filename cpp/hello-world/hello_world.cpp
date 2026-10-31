@@ -6,4 +6,4 @@ namespace hello_world {
 
 string hello() { return "Hello, World!"; }
 
-} // namespace hello_world
+}  // namespace hello_world

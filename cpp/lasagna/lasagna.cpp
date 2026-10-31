@@ -6,8 +6,8 @@ int ovenTime() { return 40; }
    minutes based on the actual minutes already in the oven.
 */
 int remainingOvenTime(int actualMinutesInOven) {
-  int totalOvenTime = ovenTime();
-  return totalOvenTime - actualMinutesInOven;
+    int totalOvenTime = ovenTime();
+    return totalOvenTime - actualMinutesInOven;
 }
 
 /* preparationTime returns an estimate of the preparation time based on the
@@ -18,5 +18,5 @@ int preparationTime(int numberOfLayers) { return numberOfLayers * 2; }
 // elapsedTime calculates the total time spent to create and bake the lasagna so
 // far.
 int elapsedTime(int numberOfLayers, int actualMinutesInOven) {
-  return preparationTime(numberOfLayers) + actualMinutesInOven;
+    return preparationTime(numberOfLayers) + actualMinutesInOven;
 }
